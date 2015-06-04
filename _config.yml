@@ -4,7 +4,7 @@ markdown: redcarpet
 permalink: /post/:title
 
 redcarpet:
-  extensions: [autolink]
+  extensions: [autolink, strikethrough]
 
 exclude: [README.md, TODO.md, LICENSE, node_modules, Makefile, Gulpfile.js, package.json]
 
@@ -14,12 +14,19 @@ paginate_path: '/blog/:num'
 excerpt_separator: "\n\n\n"
 
 # own settings
-name: minddust
-domain: minddust.com
-url: http://www.minddust.com
-description: Portfolio website of Stephan Groß
-copyright: 2013&mdash;2015
+name: joker
+domain: vuilen.party
+url: http://blogs.vuilen.party
+description: Blog cá nhân của Lạc Đường Chủ
+copyright: 2015
 author:
-    name: Stephan Groß
-    github_link: https://github.com/minddust
-    twitter_link: https://twitter.com/minddust
+    name: Minh Duc
+    github_link: https://github.com/duccuideptrai
+    twitter_link: https://twitter.com/duccuideptrai
+
+# Enter your Disqus shortname (not your username) to enable commenting on posts
+# You can find your shortname on the Settings page of your Disqus account
+disqus: blogsvuilenparty
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics: UA-46365146-5

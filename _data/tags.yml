@@ -25,5 +25,11 @@
 - slug: jekyll
   name: Jekyll
   
-- slug: open-source
-  name: Open Source
+- slug: css
+  name: CSS
+
+- slug: html
+  name: HTML
+
+- slug: bem
+  name: BEM
