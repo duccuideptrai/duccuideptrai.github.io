@@ -1,4 +1,4 @@
-timezone: Europe/Berlin
+timezone: Asia/Tokyo
 highlighter: pygments
 markdown: redcarpet
 permalink: /post/:title
@@ -15,8 +15,8 @@ excerpt_separator: "\n\n\n"
 
 # own settings
 name: joker
-domain: vuilen.party
-url: http://blogs.vuilen.party
+domain: duccuideptrai.github.io
+url: http://duccuideptrai.github.io
 description: Blog cá nhân của Lạc Đường Chủ
 copyright: 2015
 author:
